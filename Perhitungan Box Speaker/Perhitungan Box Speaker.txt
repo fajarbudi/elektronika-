@@ -1,0 +1,153 @@
+Mungkin anda perlu tau .
+PERHITUNGAN BOX SPEAKER 
+"BASS REFLEX SYSTEM" .
+-
+Design & konstruksi .
+by Sugeng Adiono PED .
+-
+Speaker & system box adalah terminal terakhir dari suatu perangkat sound system , yang tugasnya merubah besaran sinyal listrik menjadi besaran sinyal akustik , betapapun hebatnya perangkat audio yg anda miliki dalam satu sistem , nilai akhirnya adalah sistem speaker (salon spk) .
+Sedangkan sistem box di dunia banyak sekali macamnya antara lain super acoustic transmision line sistem , double cavity sistem , Ambient sistem , Linear phase system , Acoustimass system , Air suspension system , twin drive sistem dll .
+Yang saya sebut diatas mungkin masih ada yg kurang familier ditelinga anda , tp memang itu rata2 hanya konsumsi para audiophile .
+Akan tetapi pemakaian sistem box terbanyak di dunia ± 85% (menurut survey) orang cenderung gunakan sistem box "Bass Reflex" , kenapa ? 
+Jawab nya simpel saja bentuk box sederhana & mudah dibuat itu saja , akan tetapi untuk merancang box speaker bass reflex yang bagus menghasilkan respons bass yg sesuai dg keinginan kita itu yg perlu dihitung & dipelajari teorinya , apakah jika asal2an tdk bunyi ?  Ya tentu saja tetap bunyi , lha wong tanpa box saja juga bunyi .(mikir ... krik krik...)
+Yang perlu diingat box speaker itu hanya untuk mendapatkan resonansi pada freq 500Hz kebawah terutama nada rendah pada frekwensi sekitar 60Hz , dengan kata lain hanya menguatkan suara bass saja . Sedangkan pada nada diatas freq 700Hz lebih cenderung penambahan "Radiator" bukan lagi "Resonator" yg diperlukan , atau dg kata lain penambah pengarah atau lensa akustik (acoustic lens) pada bagian depan speaker . 
+Apakah ada sistem yg menerapkan Resonator & Radiator diatas freq 700Hz , ya tentu saja ada contohnya speaker corong (toa) . Pada bagian menonjol ditengah diatas membran voice coil itu Resonatornya , sedangkan corong adalah radiotor / pengarah , contoh radiator lainya entah ini anda sadari atau tidak jika kita memanggil seseorang dikejauhan dg menghalangi kiri kanan mulut dg telapak tangan itu adalah fungsinya sebagai radiator .
+-
+
+RUMUS DASAR RESONATOR
+-
+V = 2,54 x Gf x Ø spk (inchi) .
+Dimana :
+V    = Volume isi (liter) .
+Gf  = Gain faktor .
+Ø spk = Besar diameter speaker (inchi) .
+-
+
+Bahan box speaker bisa dari particle wood , play wood , kayu papan tapi yang bagus gunakan jenis play wood / multi plex , karena mempunyai serat yang saling berlawanan sehingga lebih tahan terhadap tekanan & lebih tegar , ringan serta lebih mudah dibentuk . Adalah hal salah kaprah jika hasil terbaik jika gunakan particle wood (baca partikel wud) kalo sy tanya alasanya apa? Krn lbh empuk dr kayu & tentunya suara lbh empuk , ya sekalian sy timpali knp tdk bikin salon spk dr kasur , yg benar pabrikan salon speaker memang rata2 gunakan partikel wood , alasanya hanya satu lbh murah biaya produksi nya .
+Untuk menghitung tebal dari bahan box speaker tergantung dari besar diameter speaker sedangkan rumus perhitunganya sbb :
+Rumus perhitungan ini untuk bahan dari particle wood , jika gunakan multi plex rumus tetap sama , hanya hasilnya dikalikan 0,6 . 
+Tapi jika gunakan papan kayu hrs dilihat sendiri jenis kayu keras atau lunak , jika lunak ikut standart partikel tp jika papan keras ikut standart play wood .
+Sekarang saatnya main hitung2an sediakan pena , kertas & penggaris , bagi yg tidak biasa main hitung2an boleh juga sediakan bodrex .
+-
+
+Tebal papan = Ø spk / 10 x 2,54 .
+Contoh : 
+Berapa tebal papan untuk speaker 12" ? 
+Jawab : 
+Tebal papan = 12/10 x 2,54 .
+                      = 1,2 x 2,54 . 
+                      = 3 cm .
+Jadi tebal papan dg bahan particle wood = 3 cm .
+Jika gunakan papan dr bahan play wood / multi plex :  
+3 cm x 0,6 = 1,8 cm .
+-
+
+Sedangkan menentukan lubang duck Resonator juga ada hubunganya dg diameter speaker , dg gunakan Gain faktor speaker sbg acuan .
+Rumus : 
+Ø Duck = Gf / √π x 2,54 . 
+Contoh : 
+Berapakah besar diameter lubang duck speaker 12" ? 
+Lihat tabel Gf 12" = 5 .
+Jawab : 
+Ø Duck = Gf / √π x 2,54 . 
+             = 5 / 1,77245385 x 2,54 .
+             = 7,1 cm .
+
+7,1 cm ini diameter dalam pipa duck bukan diameter lubang di baffle . 
+Lubang di baffle (baca befel) , tergantung tebal pipa gunakan bahan apa ? misal pvc , kertas tebal yg digulung (bekas gulungan kertas / kain) , bambu dll , untuk itu lubang pd baffel ukur diameter luar pipa duck ,  sdg panjang pipa ± 1/2 dr tebal box , ideal diadjust untuk mendapatkan suara yg bagus terutama freq rendah (bass) .
+Pipa duck lebih panjang misal 3/4 dr tebal box , pipa bisa ditarik / dimasukan sambil didengar suara yg paling bagus bass nya (pulen) . Jika sudah didapat yg maximal tinggal dipotong supaya rata dg baffle .
+Bentuk lubang duck tidak harus bulat , bisa dibuat segi empat , segi panjang dll asal lebar permukaan sesuai hitungan . 
+-
+Port / duck ini penting diperhatikan jika terlalu lebar / sempit maka box gagal beresonsi pada nada 60Hz atau resonan pada freq diatas 125Hz bahkan diatasnya lagi . 
+Pada keadaan resonansi maka gerakan cone speaker / membran & gerakan udara di celah merupakan gerakan expansi & kompresi yg saling berlawanan arah . Tetapi jika dipandang dari luar resonator , gerakan cone speaker & gerakan udara "sefase" .
+Disaat cone speaker maju kedepan maka gerakan udara di celah juga maju ke depan & sebaliknya juga sama , oleh karena gerakan tersebut sefase , akibatnya terjadi penggabungan yang saling menguatkan getaran suara . 
+Secara teori gain bisa diatas 5dB , jika ini diaplikasikan dg daya 10W yg keluar lebih dari 50W . Bayangkan saja jika power anda 100W saja maka yg dihasilkan mampu bikin horeg ruangan . 
+-
+
+
+PERHITUNGAN BOX .
+Untuk menentukan volume suatu box sebetulnya sulit biarpun sudah ketemu volume brp liter . Agar lebih mudah menghitung dg tepat volume isi , dengan box kita harus gunakan referensi . Jika suatu bejana ukuran lebar 1m x panjang 1m x tinggi 1m = 1 m³ .
+Jika bejana diisi air akan menampung 1000 liter . 
+Untuk memudahkan hitungan , 
+1 m = 100 cm . 
+Volume = 100 x 100 x (100) .
+              = 1000.000 ml 
+Jika diubah ke lillter maka : 
+Volume = 1000.000 / 10³ .
+              = 1000 liter . 
+Sengaja salah satu unsur ini sy masukan "dalam kurung" ini yg kita pake sbg acuan hitungan nantinya .
+Jika angka yg dalam kurung saya ganti 1/2 nya maka volume secara otomatis akan menjadi 1/2 nya atau 500 liter . 
+Sekarang kita hitung ulang / cross check apakah benar ? 
+V = 100 x 100 x (50) .
+   = 500.000 .
+Maka jika diubah dalam liter :
+V = 500.000 / 10³ .
+   = 500 liter . 
+Jika sudah cocok hitungan diatas maka ini bisa digunakan sebagai acuan .
+-
+Saat nya skg beraksi hitung keperluan box untuk speaker 12" .
+Diketahui :
+Gf spk 12" = 5 (lihat data di gbr) .
+Rumus : 
+V = 2,54 x Gf x Ø spk (inchi) 
+   = 2,54 x 5 x 12 .
+   = 152,4 liter .
+-
+Sekarang kita masukan persamaan : 
+V = 100 x 100 x (152,4 / 1000 x 100).
+   = 100 x 100 x 15,24 . 
+   = 152.400 ml .
+-
+Untuk menentukan "lebar baffle" & "tinggi box" anda yg menentukan . Tp untuk lebar baffle hrs dihitung "lebih lebar" dari diameter speaker . Terserah ditambah berapa , jika speaker ukuran 12" hrs diubah ke cm , = 12 x 2,54 = 30,45 cm .
+Misal lebar kita tentukan 40 cm  &
+Tinggi misal 100 cm .
+Maka ukuran box : 
+=152,400 / (40 lebar) .
+= 3810 / (100 tinggi) .
+= 38,1 cm adalah "tebal" atau panjang ke belakang dari box . 
+-
+Maka sekarang sudah ketemu ukuran box dg volume dg volume sebesar 152,4 liter : 
+L = 40 cm .
+T = 100 cm 
+P = 38 cm . (Tebal box , bkn tebal papan) .
+-
+Apabila diinginkan panjang /tebal & lebar sama (segi 4 ) yg perlu dihitung dulu adalah tinggi nya , tp ini hrs diperhatikan keperluan lebar minimum dr baffle nya krn ini terkait dg diameter speaker . 
+Contoh : 
+Tinggi = 110 cm .
+= 152400 / 110 (tinggi) .
+= 1385,5 .
+Untuk lebar & panjang (tebal box) .
+√1385,5 = 37 cm . 
+Jadi : 
+Tinggi = 110 cm .
+Lebar  = 37 cm .
+Panjang  = 37 cm .
+-
+Jika diinginkan tampilan box lebih tipis , atau lebih tebal ke belakang dg cara memperlebar baffle atau merubah Tinggi . Jika dihitung maka hasil akhir volume dari box speaker tetap & tdk berubah walaupun dimensinya berbeda , jika volume tetap maka "Resonansi" juga tidak berubah . 
+-
+
+Port Length
+The port length required to tune a volume of air to a specific frequency can be calculated by using the following equation: Lv = (23562.5*Dv^2*Np/(Fb^2*Vb))-(k*Dv), where:
+Dv = port diameter (cm)
+Fb = tuning frequency (Hz)
+Vb = net volume (litres)
+Lv = length of each port (cm)
+Np = number of ports
+k = end correction (normally 0.732)
+The value for k, the end correction, can be fine-tuned by using the following values to derive the appropriate end correction figure for each end of the port, then adding them together
+Both ends flanged: k = 0.425 + 0.425 = 0.850
+One end flanged, one end free: k = 0.425 + 0.307 = 0.732
+Both ends free: k = 0.307 + 0.307 = 0.614
+Normally, k=0.732 is assumed.
+
+
+
+Finishing .
+Pada langkah terakhir adalah pemasangan "glass wool" , spon tipis ± 1cm , atau bisa gunakan kain selimut di seluruh permukaan bagian dalam , sedangkan yang perlu ditambah  glass wool lbh tebal ± 5cm pada bagian belakang speaker juga pada dinding bagian belakang & bagian bawah (lihat gambar) .
+Tujuan pemasangan glass wool ini adalah untuk meredam nada2 diatas 500 Hz agar tidak ikut beresonansi di dalam box , jika ini terjadi akan menyebabkan ringing & nada bass yg dihasilkan kurang mantab , jika saya pinjam istilah jawa akan terjadi suara "ngumplung" , artinya seperti suara dalam kaleng .
+Jika untuk "sub woofer" perbedaan pada pemasangan glass wool sama seperti diatas hanya pemambahan glass wool pada semua ruang tersisa dg cara "glass wool" direnggangkan spy tdk padat , sehingga mampu meredam nada rendah diatas 125Hz , krn nada sub lo berada dibawah 125Hz .
+-
+Kesimpulan :
+Susunan box bass reflex bukanlah yang terbaik walaupun tidak bisa dipungkiri bahwa gain / penguatan nada bass yang dihasilkan bisa dibilang yang terbesar jika dibandingkan dengan sistem box yang lain , dlm contoh jika dibandingkan sistem suspension / box tertutup rapat perbedaan bisa mencapai diatas 5dB , ini artinya 5x lebih kuat , misal dg daya power 10W seakan gunakan power 50W , akan tetapi jika diamati dg benar nada bass yg dihasilkan menimbulkan colorasi yg berlebihan (tidak murni) tapi justru ini yg banyak disukai banyak orang , bahkan sy pernah uji dengar dg 3 org yg berbeda , 1 orang awam , 1 org audiophile & 1 orang operator sound , saat sy peragakan 2 unit box speaker , box bass reflex sistem & super acoustic transmision line sistem ini mereka punya pendapat yang berbeda sekalipun yang saya putar lagu yg sama , dg volume yg sama dr power class A Direct Coupling . Jadi intinya "suara enak & mantab" itu tidak bisa kita paksakan , karena sifat nya relatif & tergantung dari kebiasaan yg dia dengar . Justru yg bisa dijadikan patokan sebetulnya yg terucap dr org yg awam , krn penilaianya lbh jujur .
+-
+Selamat berkreasi ...

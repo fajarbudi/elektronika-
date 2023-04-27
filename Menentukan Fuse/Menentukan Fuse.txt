@@ -1,0 +1,53 @@
+Mungkin anda perlu tau .
+BAGAIMANAKAH CARA MENENTUKAN BESARAN NILAI SEKRING (FUSE) PADA PSU ATAU PERALATAN LISTRIK ?  
+-
+Just Sharing Knowledge.
+by Sugeng Adiono . 
+-
+Mungkin sepintas masalah fuse ini komponen yg remeh & memang dlm kenyataanya selalu diremehkan bahkan ada bbrp org yg mungkin kurang faham dg elektronik justru tdk gunakan fuse pd psu baik di primer maupun skunder dg alasan takut drop gara2 fuse yg rata2 hanya dg sehelai kawat serabut sdg alasanya sepele untuk apa gunakan kabel dg ukuran cukup besar jika pd ujungnya dipasang fuse yg cuma sehelai kawat kecil . Padahal fuse adalah ujung tombak dr suatu sistem keamanan pada rangkean . 
+Biarpun seakan remeh tapi untuk menghitung berapa keperluan fuse pada suatu rangkean tidak bisa diremehkan . 
+Idealnya suatu pembatas arus (fuse)  ini haruslah mampu menghandel kemampuan maximal tapi juga harus putus jika terjadi over load . 
+Ada 2 macam jenis fuse yaitu type fast & type slow (slow blow) , dlm aplikasinya berbeda walaupun kemampuan arus & tegangan kerja nya sama , ini tergantung dr jenis beban . Secara fisik beda jika type fast hanya berupa sehelai kawat dg diameter yg sdh dihitung kemampuan arusnya , bahan yg bagus berupa serabut kawat perak & waktu putus pd beban lebih kurang dr 2 detik , sedangkan type slow secara fisik serabut berbentuk sepiral kecil & wkt putus saat beban lebih ± 5 detik . 
+CARA HITUNG FUSE . 
+Untuk menghitung berapa besar nilai fuse kita harus hitung daya dr beban berdasarkan jenis beban , Sebetulnya beban listrik jika kita pilah2 ada 3 macam. 
+1. Beban Resistif. 
+2. Beban induktif. 
+3. Beban kapasitif. 
+-
+1. Beban Resistif , adalah beban murni dg cos phi mendekati 1 (0,9 - 1) . 
+Contoh beban resistif , Lampu pijar (bohlam) , solder , rice cooker , strika dll.
+Dasar perhitungan daya sebagai berikut:
+Daya (pwr) = E²/R . 
+Jadi : 
+I = (P / E) / cos phi .
+Contoh rice cooker 350W . 
+I = 350 / 220 / 0,9 . 
+  =  1,76767677 A  
+  =  1,8 A . 
+2. Beban induktif , beban yang mengambil daya lebih besar dari yang tertera pada Alat tersebut .
+Contoh beban induktif adalah alat yang gunakan "motor listrik" seperti pompa air , mesin cuci , bor , trafo dll.
+Dasar perhitungan daya sebagai berikut:
+P = √ 2 x VA (ideal) .
+P = √π x VA (max) .
+Dari rumus diatas misal pompa air dengan daya 125 Watt /220V (1/6 PK)  akan mengambil daya sebesar 177 Watt (ideal cos phi 0,7) . 
+Baru kita hitung keperluan fuse nya . 
+I = 177 / 220 .
+  = 0,804545455 A .
+  = 0,8 A . 
+-
+Contoh untuk trafo misal 5A 45V ct . Maka kita hitung dulu daya nya . 
+P = 5 x (45+45) x √2 .
+   = 636 VA . 
+Maka keperluan fuse primer sbb : 
+I = 636 / 220 .
+  = 2,89 A (3A) . 
+Sedangkan keperluan fuse skunder = 5A (sesuai daya trafo) . 
+Dalam contoh gbr adalah trafo era 10A 32V ct . Tp setelah sy hitung ulang dr daya kern ternyata hanya 312,5 VA ini artinya jika bekerja pd teg non ct (32V ac) dg penyearahan penuh (full wave rectifier) sebesar 42,1859164 V dc (42V) ,  9,765625 A (9,8A) . 
+Dan jika sy gunakan untuk tegangan ct ini hanya keluar 2 x 32V , 4,9 A . 
+Sy tdk tau jika gunakan trafo abal2 misal 10 A kecil dst . Ini ideal sblm hitung besaran fuse hrs hitung daya real dr trafo tsb .
+-
+3. Beban kapasitif adalah beban yang sangat besar melebihi daya yang tertera pada peralatan , tapi hanya beberapa detik karena pengisian capasitor , atau istilah elektronik adanya Rust current.
+Rumus dasar perhitungan daya beban kapasitif adalah 
+P(T/det) = C.freq/(π.3) +P.  
+Dari rumus diatas misal kita punya TV 14" dengan daya tertulis 50W (jika belum ada soft start) dengan elco pada switching sebesar 120uf/400 maka daya yang diambil dalam beberapa detik adalah 686,6 Watt , nilai hitungan ini akan makin besar jika elco makin besar.    Jadi dalam hal ini jangan anggap tv 14" dayanya diatas 450W karena mcb 2A (440VA) trip . Idealnya khusus untuk keperluan ini gunakan fuse jenis slow blow . Dalam prakteknya biarpun daya hanya 50W tp keperluan fuse (slow blow) 3,15 A . 
+Sedikit ilmu yg sy bagikan mudah2an bisa bawa manfaat . 

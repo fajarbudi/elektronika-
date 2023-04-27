@@ -1,0 +1,92 @@
+Mungkin anda perlu tau .
+APAKAH DENGAN MAGNET TAMBAHAN PADA SPEAKER  BISA MENAMBAH DAYA HANDLING SPEAKER ?  
+-
+Just Sharing Knowledge.
+by Sugeng Adiono . 
+-
+Sebenarnya spesifikasi (spek) dari speaker bisa dikata sangat komplex , mulai dr diameter spk (inchi) , impedansi (Ω) , jenis (woofer , full range dll) , daya handling max (W) , daya nominal (W) , respon frekwensi , bahan conus dll . 
+Jadi jika anda ingin memodifikasi setidaknya harus mengusai dulu dasar2nya ini bertujuan agar tidak "kecewa" sudah susah2 mengoprek tapi hasilnya diluar dr expetasi yg anda bayangkan . 
+Banyak yg beranggapan bahwa dg menambah magnet pada speaker ini tujuan utama adalah untuk meningkatkan daya handling speaker , apakah benar pendapat ini ?
+Bahkan ada rekan2 yg mencoba "modif" agar lebih besar daya handling speaker bukan hanya menambah sendiri magnet lalu agar bisa gunakan ukuran kawat lebih besar dg cara melebarkan celah pada moving coil . Apakah cara spt ini juga sdh benar ?
+Lalu spek apa saja yg harus diperhatikan ?
+Speaker diciptakan itu agar mampu mereproduksi suara semirip mungkin dg suara aslinya tp bisa diatur keras pelanya suara , untuk mendapatkan hasil yg maximal tentu tidak mungkin hanya gunakan satu jenis speaker tp mampu mewakili reproduksi suara dr nada rendah hingga tinggi , kenapa ? 
+Antara lain dr sifat masing2 nada dr nada rendah & tinggi , ini jika dibagi 2 , jika dibagi 3 akan lbh bagus lagi , nada bass , mid & hi , & akan lbh sempurna lagi jika dibagi 5 , sub low (sub woofer) , low (woofer) , mid (squaker) , hi /treble (tweeter) & nada sangat tinggi (super tweeter) . 
+Dari kesimpulan diatas jelas masing2 kelompok nada perlu conus yg beda2 pula , makin tinggi nada perlu conus yg kecil ringan tipis tp tegar , sdg nada rendah perlu diameter konus yg lbh besar tp juga hrs tegar spy tdk mudah robek , ya otomatis konus hrs dibuat lbh tebal .
+- 
+MAGNET . 
+Untuk menggerakan moving coil agar bisa bertenaga perlu intensitas medan magnet yg cukup besar & ini ada hitungan brp tesla daya magnet (ma'af tdk sy jelaskan secara detil dg rumus , krn ini berupa materi siswa) . 
+Untuk mengumpulkan flux medan magnet yg besar maka celah pada pada moving coil dibuat sesempit mungkin , tergantung perhitungan tp secara umum tergantung brp mm tebal coil + 0,5mm celah dalam & 0,5mm untuk celah luar , ini agar tercapai brp weber flux magnet . Penambahan magnet pd magnet aslinya "bukan untuk memperbesar daya handling" tapi untuk "memperkecil daya nominal" speaker tp daya max handling tetap . Penulisan spek daya nominal & maximal hanya pd speaker kelas menengah atas & umunnya spk built up . Karena dg daya nominal yg rendah & daya max tinggi ini jelas lbh bagus mutu suara yg dihasilkan jika sy pinjam istilah umum , nada suara lbh "bulat" & utuh . 
+Sebagai contoh disini sy bikin box super acoustic transmision line sistem 10" , dg 2 speaker 10" tp dr merk berbeda yg 1 gunakan jbl 10" 8Ω , daya handling max 300 Watt & daya nominal 3W , respon freq 30Hz ~ 3000 Hz . Yg kedua spk jvc 10" 8Ω daya handling max 125W & daya nominal 12,5W , respon freq 40Hz ~ 2500Hz .
+Sengaja untuk uji dengar diawal saya hanya gunakan amplifier class A 10W , dg speaker jvc cukup bagus suara yg dihasilkan tp tdk ada kata wah atau wow ...begitu swit sy pindah pd speaker jbl , dg volume & lagu yg sama sy putar ulang dr awal lagunya , "wow" terasa betul tendangan bass nya menohok dada padahal daya handling spk max 300W . 
+Dari kesimpulan diatas akhirnya sang jvc sy dobel magnetnya & alhasil suara yg dihasilkan walaupun blm ada kata wow , tp sdh ada kata "wah nayamul sam" suara bass nya sdh lbh nonjol & bulat sekalipun msh dibawah kemampuan spk jbl , ingat dr kesimpulan ini jangan buru2 menyimpulkan daya spk naik , yg ada hanya daya nominal turun yg tadinya 12,5W hanya perkiraan saja bisa turun di 6W krn uji dengar bukan di lab tp di rumah & tanpa alat ukur yg memadahi hanya gunakan spl meter saja & kuping mas ...
+Untuk uji dengar ke 2 ternyata si jvc yg sdh dimodif hanya dg tambahan magnet , baru perlihatkan tanduknya , dg power amplifier class A direct coupling 100W x 2 (hi end) sy coba mainkan permainan drum dr Billy cobam yg berkolaborasi dg pemain bass guitar Billy Sheehank , wow puas rasanya , dada sedikit sesak krn dihantam dg bass drum & betotan bass gitar yg bikin ruangan jadi horeg , kaca getar semua & ketika mode sy pindahkan ke jbl sebenarnya ini hanya sbg teferensi saja ternyata sulit mengalahkan spk yg hi class walaupun sdh modal spk kelas menengah , di tengah2 dentuman bass gitar & bass drum sesekali ada suara hi hat & cymbal ada suara krumpying ini bukan suara cymbal tp cangkir kopi di ruang tamu yg jatuh .. gak bisa komen saya ...
+Pertanyaanya sekarang apakah dengan melebarkan celah pada moving coil agar bisa dililit moving coilnya dg diameter kawat lbh besar lantas bisa memperbesar daya handling spk tsb , bagaimana dg flux magnet , inpedansi spk tsb , tetap atau berubah ? 
+-
+MOVING COIL .
+Ada bbrp sistem dasar moving coil , ada yg hanya terdiri dr 1 layer (speaker built up hi class) tidak kita bahas disini . 
+Secara umum antara speaker woofer , full range , squaker maupun tweeter sistem lay.er nya beda2 juga penggunaan jenis kawat email beda pula , makin tinggi freq yg dihandle makin kecil diameter kawat tp dg daya handle daya yg sama besarnya . 
+Untuk woofer terdiri dr 4 layer tujuanya agar lebar lilitan menjadi lbh sempit & flux magnet jauh lebih mengumpul & kuat menghasilkan tendangan pada nada rendah . 
+BERIKUT INI CONTOH PERHITUNGAN SPEAKER WOOFER : 
+Contoh :
+Magnet DL 10cm , DD 6cm , T 2cm . Setelah sy hitung ketemu 128 W (ideal) & 402 W (music) .
+Diameter voice coil = 1" (25,4 mm) .
+Celah magnet spk   = 2 mm .
+Ini berarti diameter koker = 25,4 mm + 0,5 mm = 25,9 mm .
+Lalu jika tebal lilitan + koker 1 mm .
+Jika ditotal 0,5 mm celah luar + 0,5 mm celah dalam + lilitan & koker 1 mm = 2 mm . 
+Jika lilitan Voice Coil ada 4 tumpuk = 1 mm maka diperlukan diameter kwt : 
+= 1 mm / 4 = 0,25 mm . 
+Jika spk Z = 8Ω misal woofer freq respon 40Hz ~ 1500 Hz (1,5 kHz) maka freq tengah (ft) .
+Ft = (40 + 1500) / 2 =  770 Hz (0,77 kHz) .
+Maka persamaan resistansinya sbb :
+R = (√π / √2 + Z) / √2 / √f(kHz) . 
+Dimana :
+Z  = impedansi speaker (Ω) . 
+Ft = freq tengah (kHz) . 
+Maka : 
+R = (1,77245385 / 1,41421356 + 😎 / 1,41421356 / √ 0,77 . 
+   = 7,45653303 Ω .  
+   = 7,5 Ω .
+-
+Hitung resistansi kawat email 0,25 mm / meter brp Ω ? 
+Jawab : 
+Hitung phi (φ) kwt 0,25 mm .
+Jari2 0,25 / 2 = 0,125 mm 
+φ = π x r² .
+   = 3,14 x 0,125² 
+   = 3,14 x 0,0156 .
+   = 0,049 .
+-
+Hitung resistansi kawat 0,25 mm / meter 
+Rho (ρ) tembaga = 0,0168 .
+R = ρ.(L) / φ. 
+   = 0,0168 x (100 x 10-²) / 0,049 .
+   = 0,34 Ω . 
+Jadi resistansi kawat email 0,25mm / m = 0,34 Ω / meter .
+-
+Hitung panjang kawat yg diperlukan .
+L = R (Z 8Ω) / R (kawat) .
+L = 7,5 Ω / 0,34 .
+   = 22  meter . 
+Krn lilitan terdiri dr 4 tumpuk maka :
+22 m / 4 = 5,5 m atau 550 cm . 
+-
+Voice coil = 1" = 2,54 cm . 
+Panjang kawat 1 lilit pd diameter 2,54 cm = π x 2,54 = 7,97 cm .
+Jadi satu layer lilitan = 550 / 7,97 = 69 lilit .
+Berarti lebar lilitan = 69 x 0,25 = 17,25 mm (+-1,7 cm) .
+Jadi jumlah lilitan total 69 lilit x 4 = 276 lilit . 
+-
+Hitung daya max spk . 
+Diameter kwt 0,25 mm = 0,31A . 
+Z = 8 Ω , jika dlm perhitungan dg freq ft 1,5 kHz ,  R = 7,5 Ω . 
+P = (I² x R x f x √π) / Z . 
+   = (0,31² x 7,5 x 770 x 1,77245385) / 8 . 
+   =  122,959001 W  (125W) .
+Daya musik = P x √π  x √2
+                     = 125 x 1,77 x 1,414
+                     = 313 Watt . (300 W) .
+Tapi ada kalanya dlm penulisan power musik adalah 2x daya output . 
+Dari kesimpulan diatas untuk menambah daya handling speaker mutlak diameter inti voice coil harus lebih besar ini bertujuan agar mendapatkan nilai impedansi misal 8Ω krn dg kawat email lbh besar secara otomatis diperlukan kawat yg lbh panjang selain itu nilai weber flux magnet hrs terpenuhi . Nah dr sini pula bisa disimpulkan jika melebarkan celah voice coil itu yg ada hanya bikin naik nilai noninal spk tsb , jadi dg power yg sama biasanya volume jam 9 sdh nonjok bass nya stlh di modif jam 9 msh blm nonjok bass nya , tp jika ditanya sang pemodif alasanya krn dayanya skg sdh lbh besar .. preketek ...
+Disini sy bukan mengajak anda ber-pusing2 ria tp lbh memberikan wawasan ternyata speaker itu jauh lbh njlimet jika hrs menghitung & merancang , dlm prakteknya anda bkn merancang tp memperbaiki & ini hanya meniru yg sdh ada , jadi ya tdk sesulit teorinya . Namun jangan pula dg mudahnya menyimpulkan contohnya tambah magnet nambah daya handling dst . 
+Sedikit pengetahuan mudah2an bawa manfaat . 

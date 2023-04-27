@@ -1,0 +1,60 @@
+Mungkin anda perlu tau .
+KARAKTERISTIK SPEAKER BERDASARKAN DIAMETER .
+-
+Just Sharing Knowledge.
+by Sugeng Adiono . 
+-
+Banyak yg beranggapan bahwa speaker makin besar makin besar dayanya & makin keras suara yg dihasilkan . 
+Sehingga muncul pertanyaan2 yg kadang "aneh2" . Perlu power brp Watt  untuk mendorong speaker 12" . 
+Dari pada gunakan speaker 6 inch 2 lebih baik gunakan 1 spk 12" . Ada juga pertanyaan yg nyalahi "kodrat" , apakah speaker full range 12" bisa digunakan untuk sub wofer , atau apakah speaker woofer 6" bisa digunakan untuk midle? 
+Pada dasarnya suatu speaker mempunyai spesifikasi yg beda2 antara lain , impedansi (Ω) , daya handling power (Watt) , daya nominal (Watt) ini utamanya pd spk built up makin kecil dibanding dg daya max akan lbh baik , respons freq (Hz) , diameter (inchi) dll. 
+Speaker pertama diciptakan adalah untuk mereproduksi ulang suara agar suara yg dihasilkan "semirip mungkin dg suara aslinya" . Dan ini tidak mungkin dg 1 speaker mampu memproduksi suara dr nada rendah hingga tinggi dg sempurna . Untuk itu diciptakan ber-macam2 jenis & ukuran yg berbeda agar lbh maximal menghasilkan suara yg diinginkan . 
+BASIC ACOUSTIC . 
+Jika ada sebuah logam dg ketebalan yg sama tp diameter beda jika kita pukul akan menghasilkan nada yg berbeda misal yg diameter 2,5cm akan menghasilkan suara "ting" , jika yg lbh besar "tung" , yg lbh besar lagi "dung" atau"deng" dst .  Berdasarkan sumber suara diatas maka speaker juga diciptakan agar lebih maximal juga berdasarkan "diameter" konus / membran (umum nyebut daun speaker) untuk menghasilkan nada sesuai dg frekwensi yg diinginkan . 
+Bisa dikata 80% speaker didunia ini terbuat dr bahan pulp (bubur kayu) yg dicetak dlm bentuk corong , yg bagus jika berbentuk hiperbola bukan lurus , ini bukan tanpa sebab , krn dg bentuk hiperbola biarpun tipis ini akan membentuk "ketegaran" yg sangat tinggi, kata kakek moyangku speaker diciptakan thn 1901 terbuat dr bahan pulp & itu sampe skg , bahan ini bukanlah yg terbaik namun bisa dikata yg paling efisien, ringan & mudah dlm produksi. Tp pd era skg ini sdh lbh banyak bahan yg digunakan antara lain polypropylene , polygraphite, bextrene , tintanium , aluminium (ribbon spk) dll , yg sy sebut ini rata2 dr jenis spk built up .
+Ada juga yg jenis pulp tp dilapisi treatment (dry) tp pada free edge dilapisi treatment (wet) ini yg jenis full range , tp yg jenis woofer hanya pd konus yg di treatment dry sdg pd pinggiran tetap pake rubbering .
+-
+STANDARISASI KONUS SPEAKER .
+(Bahan Pulp / kertas)
+Diameter Konus / membran getar speaker berdasarkan freqwensi suara yg dihasilkan jika gunakan Voice coil & konus (inchi).
+1. Tweeter  10kHz ~ 22kHz  lebih kecil dr 2". 
+2. Dome Tweeter 8kHz ~ 15 kHz  lebih kecil dr 4".
+3. Squaker (mid hi) 3kHz ~ 8kHz  lebih kecil dr 5".
+4. Speaker (mid) 700Hz ~ 5kHz lebih kecil 6".
+5. Speaker (mid lo) 250Hz ~ 3kHz , 8"~10".
+6. Speaker (lo ). 125Hz ~ 700Hz lebih besar dr 12" .
+7. Full range speaker 125Hz ~ 10kHz , 4 inch keatas . 
+8. Woofer ( lo ) 30Hz -700Hz  6" inch keatas .  
+9. Sub Woofer 12,5Hz ~ 125Hz  lebih besar dr 10".
+-
+Dari catatan diatas freq range (suara) yg dihasilkan speaker tergantung dr diameter (inchi) dr membran getar / konus spk, ini bukan berarti tdk ada woofer 4" akan tetapi ada penyesuaian antara konus , damper dll agar sesuai dg spek yg diinginkan . Misal jika ingin menambah atau menonjolkan focal (mid) 6" spy lbh murah lalu mengganti misal dg spk yg 10" atau 12" bahkan yg 15" ini hasilnya akan beda dg yg anda harapkan. Jika awalnya hanya gunakan spk 6" 1pcs , spy tetap spek nya hrs gunakan seri paralel spk 4 pcs dg diameter 6" , tentu saja hrs keluarkan dana lbh besar . 
+-
+Untuk menghitung diameter spk agar sebanding tdk bisa hanya dg membagi atau mengalikan diameter spk . 
+Contoh , 1 spk 12" ini tdk setara dg 2 spk 6" . Jika ingin setara ini hrs dihitung dg rumus sbb ;
+Berapakah persamaan spk 6" 2 pcs dg 1 pcs ukuran brp inchi ?  Rumus dasar .
+A  = π x r².
+A  = diameter spk.
+π  = 3,14  (3.14159265).
+r   = jari2 atau 1/2 x A.
+Diketahui diameter spk 6 inchi .
+A = 3,14 x 3² .
+   = 3,14 x 9 .
+   = 28.26 inchi² .
+-
+Jika 2 buah spk 6" 
+A = 2 x 28,26 inchi.
+   = 56.52 inchi² 
+Dari hasil hitungan ini kita kembalikan lagi menjadi diameter .
+Rumus :
+r₂ =  A / π .
+r₂ =  57,26 / 3,14.
+r₂ =  18.
+r   =  √18.
+r   =   4.24264069 atau (4,2).
+Jadi 2 pcs spk 6" 
+A = r + r .
+    = 4,2 + 4,2 .
+    = 8,4 inchi.
+Jadi 2 spk dg diameter 6" setara dg 1 spk diameter 8" . 
+Jika segala sesuatunya dihitung spt ini maka hasil yg didapatkan akan sesuai baik karakter maupun dayanya . 
+Sedikit ulasan mudah2an menambah pengetahuan anda tentang speaker . 

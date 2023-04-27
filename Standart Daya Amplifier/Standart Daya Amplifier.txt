@@ -1,0 +1,77 @@
+Mungkin Anda perlu tau.
+SISTEM STANDARISASI INTERNASIONAL DAYA POWER AMPLIFIER .
+-
+by Sugeng Adiono .
+-
+Mungkin anda disini sdh tdk asing lagi dg kata2 "RMS , MPO , PMPO" & masih ada lagi 1 standart yg jarang bahkan asing ditelinga kita adalah standart DIN . 
+Apa & bagaimana sistem pengukuran ini bisa beda2 & tdk dipatok dg 1 sistem saja , contoh satuan tegangan listrik adalah Volt , satuan arus listrik adalah Ampere & satuan dr Daya adalah VA (Watt) .
+Yang kita bahas disini adalah daya power Amplifier (Watt) , sebenarnya sdh jelas bahwa daya (Watt) ini rumus dasar nya adalah :
+P = I².R 
+Hal ini didapat dari pengukuran Arus listrik terhadap beban (resistansi dg satuan Ω) namun yg membedakan adalah acuan dlm pengukuran , lalu kenapa mereka beda2 bikin acuanya , ini krn ada kepentingan "Bisnis" dg kata lain politik dagang , walaupun jika dinalar dg akal sehat ya jelas tdk masuk akal . Baiklah kita bahas 1/1 agar semua bisa faham dg sistem yg ada .
+1. Standart DIN . 
+DIN - Deutsches Institut fur Normung (Germany Nasional Standart) .
+Standart ini hanya diterapkan di Eropah , kita tau orang eropah segala sesuatu hrs sempurna , real terukur secara teori yg jelas & bisa dipertanggung jawabkan . 
+Standard DIN ini terkenal paling "pelit" dlm pengukuranya .
+Contoh :
+Sebuah power Amplifier misal di supply tegangan dc 45V ct
+Peralatan pengukuran yg digunakan antara lain, tone generator , oscillocope, spektrum analizer , dummy load , spl meter , ac Volt meter , dc Volt meter, thermo meter, Galvano meter dll .
+Standart pengukuran gunakan impedansi 8 Ω dg dummy load , tone generator di setting pd freqwensi 1 kHz 1Vpp , yg disuapkan pd input amplifier & di amati dg oscilocope input maupun output nya , selain itu pd output juga dipasang spektrum analizer u/ mengamati thd , maupun freqwensi harmonik, teg + & - juga diamati DC Volt meter , headsink diamati thermo meter. Lalu besaran output disetting tdk sampe 25% dr batas teg atau jika dihitung tdk sampe 33,75V . 
+Contoh:
+Misal terukur teg pd out Amplifier 22V AC . 
+Maka bisa dihitung dg rumus : 
+Amp Wattage = ε² / z x √(z / RL) .
+Jika impedansi dummy load 8 Ω .
+Amp Wattage ,
+ = ε² / z x √(z / RL) .
+ = 22² / 8 x √ (8/8).
+ = 60,5 Watt .
+-
+Dg cara ini sdh barang tentu output tdk sampai clips atau cacat & hasilnya pasti sempurna . Walaupun disisi lain pemborosan daya & kurang efisien tp jika kesempurnaan yg dicari hal semacam diatas bukan lah suatu kendala .
+-
+2. RMS (Root Mean Square) . 
+Standart pengukuran internasional lebih banyak gunakan ini , untuk peralatan bisa dikata sama namun yg membedakan adalah titik pengukuran sampai maximal terhadap catu daya tp tdk sampai clips / cacat , artinya pengukuran daya rata2 yg efektif . 
+Dg cara ini maka akan didapat hasil pengukuran yg maximal, baik daya power maupun efisiensi juga didapat , oleh karena itu standart RMS ini yg digunakan sebagai acuan yg relefan & digunakan di seluruh dunia & minus Eropah tentunya .
+Dg spek spt contoh diatas misal terukur teg pd out Amplifier 28,5V AC . 
+Maka bisa dihitung dg rumus : 
+Amp Wattage = ε² / z x √(z / RL) .
+-
+Jika impedansi dummy load 8 Ω .
+Amp Wattage .  
+ = ε² / z x √(z / RL) .
+ = 28,5² / 8 x √ (8/8).
+ = 101,5 Watt .
+-
+3. MPO (Music Power Output) .
+Standart pengukuran sistem ini adalah dg pengukuran sinyal output peak to peak nya jadi bisa dikata 2 x rms ini jika gunakan acuan pink noise sebagai sumber input (konstan) . 
+Sesuai dg namanya music power output acuan pengukuran berdasarkan musik bukan gunakan freq 1kHz sebagai acuan pengukuran . Dengan cara ini bisa dihitung dg rumus : 
+E(pp) = 2 x Vcc  .
+Jika impedansi dummy load 8 Ω .
+Amp Wattage .  
+ = E(pp)² / (π√2 x RL) .
+ = 90² / (π√2 x 😎 .
+ = 8100 / (π√2 x 😎 .
+ = 227,9 W . 
+-
+PMPO (Peak Momentary Power Output) .
+Standart ini yg bisa dibilang paling gila krn sdh menabrak rambu2 teori yg ada , akan tetapi ini juga ada perhitungan matematik nya biarpun bisa dibilang tidak masuk di akal sehat , sedang acuan pengukuran output puncak sesaat walaupun hanya sesaat (bbrp mili detik), dg gunakan musik digeber gas pol sdh tdk perduli suara itu cacat / clips asal masih ada yg utuh salah satu freq suara / freq tertentu dianggap masih relefan . Sedang perhitungan matematiknya adalah sbb : 
+P(pmpo) = E(ef)² / z x √(z / RL) .
+Contoh : 
+Tegangan dc terukur spt diatas 45V jika dihitung teg efektifnya = 
+E(ef) = 45 x √π .
+         = 79,7 V . 
+Amp Wattage= E(ef)² / z x √(z / RL) .
+                      = 6352,09 / 8 x √(8/8) .
+                      = 794 W . 
+-
+Memang PMPO tergolong abal2 tp trik ini pada awalnya juga sempat menggoyang product dg standart RMS , ini bisa dimaklumi krn yg beli rata2 juga kalangan awam yg hanya melihat daya yg tertulis besar dg harga yg bersahabat .
+Yg pada akhirnya product audio branded pun ikut2an menulis BESAR2 standart pmpo tp tetap tertulis daya real dg standart rms.
+Jika diambil kesimpulan maka daya 
+DIN hanya ± 3/4 dr RMS , sedangkan daya MPO ± 2x lipat dr RMS & daya PMPO ± 8x lipat dr RMS . 
+Karena tdk ada aturan yg baku standart daya PMPO bahkan bisa lebih dr 10 x daya RMS . 
+-
+Catatan :
+Kita tau untuk menghitung alat nya sama yaitu kalkulator , tp cara menghitung org teknik & org marketing adalah beda , jika org teknik menghitung hrg brg 1 pcs rp 1000 , jika beli 10 pcs = 10rb , kalo org marketing dg 10rb hrs dpt minim 11 pcs... Lha kalo dpt 10 untung saya mana , wong tak jual lagi ini .
+Jadi prinsip spt ini yg digunakan org marketing agar bisa menjual brg yg sama tp yg beli seakan dapat brg yg lbh besar tp juga ada hitung2an matematikanya , ini penting spy tdk ada tuntutan secara hukum . Ini tdk beda dg yg tertulis pd "lampu lhe" misalnya merk terkenal phillips , 22W , 220V tp disitu tertulis I = 165mA . 
+Coba hitung ulang brp daya sesungguhnya , P = 165mA x 220V , 
+= 36W. 
+Nah kalo soal lampu dg "daya besar" spy terkesan "kecil" & cahaya terang   ya ditulis spt ini , pastinya anda juga terkecoh kan ? 
